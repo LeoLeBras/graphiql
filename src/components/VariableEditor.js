@@ -39,7 +39,7 @@ export class VariableEditor extends React.Component {
     // Keep a cached version of the value, this cache will be updated when the
     // editor is updated, which can later be used to protect the editor from
     // unnecessary updates during the update lifecycle.
-    this.cachedValue = props.value || '';
+    this.cachedValue = props.value || '{}';
   }
 
   componentDidMount() {
