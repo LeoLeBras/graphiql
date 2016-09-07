@@ -138,7 +138,7 @@ and children.
 ```js
 class CustomGraphiQL extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       // REQUIRED:
       // `fetcher` must be provided in order for GraphiQL to operate
